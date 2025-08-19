@@ -39,7 +39,7 @@ Edit `.env` to include your Azure OpenAI credentials:
 OPENAI_API_KEY=<your-azure-openai-key>
 OPENAI_API_BASE=https://<your-resource-name>.openai.azure.com/
 OPENAI_API_TYPE=azure
-OPENAI_API_VERSION=2024-12-01-preview
+OPENAI_API_VERSION=<your-azure-openai-api-version>
 ```
 
 Set service ports and other variables as needed.
@@ -113,7 +113,7 @@ docker compose -f docker\docker-compose.yaml up
 ```python
 from openai import AzureOpenAI
 client = AzureOpenAI(
-    api_version="2024-12-01-preview",
+    api_version="<your-azure-openai-api-version>",
     azure_endpoint="https://<your-resource-name>.openai.azure.com/",
     api_key="<your-azure-openai-key>",
 )
@@ -542,6 +542,7 @@ To connect WrenAI to your own SQL Server database, follow the official guide:
 - Test the connection in the UI before running prompts.
 
 ---
+
 
 
 
