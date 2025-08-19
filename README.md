@@ -246,7 +246,8 @@ HAVING
 
 **Chart:**
 
-![alt text](images\prompt_1.png)
+<!-- ![alt text](images\prompt_1.png) -->
+![alt text](prompt_1.png)
 
 The query is Correct. The answer and SQL match the intent, and the chart visualizes the duplicate counts.
 
@@ -509,7 +510,8 @@ GROUP BY
 
 **Chart:**
 
-![alt text](images\prompt_3.png)
+<!-- ![alt text](images\prompt_3.png) -->
+![alt text](prompt_3.png)
 
 Correct. The answer, SQL, and result table match the intent. Expiry date is not available for these transactions.
 
