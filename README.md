@@ -246,8 +246,6 @@ HAVING
 
 **Chart:**
 
-<!-- ![alt text](images\prompt_1.png) -->
-![alt text](prompt_1.png)
 <img width="700" height="320" alt="prompt_1" src="https://github.com/user-attachments/assets/09e729fa-1a9c-49a2-9699-72654c823418" />
 
 The query is Correct. The answer and SQL match the intent, and the chart visualizes the duplicate counts.
@@ -511,8 +509,6 @@ GROUP BY
 
 **Chart:**
 
-<!-- ![alt text](images\prompt_3.png) -->
-![alt text](prompt_3.png)
 <img width="700" height="320" alt="prompt_3" src="https://github.com/user-attachments/assets/041bfd47-9445-40bd-84fb-e5dfa3cff357" />
 
 Correct. The answer, SQL, and result table match the intent. Expiry date is not available for these transactions.
@@ -546,5 +542,6 @@ To connect WrenAI to your own SQL Server database, follow the official guide:
 - Test the connection in the UI before running prompts.
 
 ---
+
 
 
