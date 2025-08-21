@@ -392,8 +392,8 @@ FROM
 
 **Chart:**
 
-![alt text](images\prompt_1.png)
-<!-- <img width="700" height="320" alt="prompt_1" src="https://github.com/user-attachments/assets/09e729fa-1a9c-49a2-9699-72654c823418" /> -->
+<img width="700" height="320" alt="visualization" src="https://github.com/user-attachments/assets/59d1a044-d964-41dc-a157-a49ebcc4b791" />
+
 
 The query is Correct. The answer and SQL match the intent, and the chart visualizes the duplicate counts.
 
@@ -527,9 +527,13 @@ LIMIT
 <br>
 
 **Chart:**
-_Not available for this example._ The provided data contains event types, sources, and timestamps, but lacks meaningful numerical or categorical diversity for visualization. Thus, no chart is generated.
 
-Partial. The answer and SQL are correct for the available data, but account name and balance are missing (null) for these events. One way would be to ask specifically in the prompt to remove the null values.
+<img width="700" height="320" alt="visualization (1)" src="https://github.com/user-attachments/assets/a37e5bba-89d0-4381-b4f9-4907f8d706c2" />
+
+
+On point result with a great visualization.
+
+*Depending on the model's whims, it may sometimes not display a chart at first, but if you run the same prompt again, it may display.
 
 ---
 
@@ -728,7 +732,9 @@ ORDER BY
 
 **Chart:**
 
-![alt text](images\prompt_3.png)
+
+<img width="700" height="320" alt="visualization (2)" src="https://github.com/user-attachments/assets/9a4a1b85-5321-40bd-8e68-c8530ab1f660" />
+
 
 Correct. The answer, SQL, and result table match the intent.
 
@@ -774,4 +780,5 @@ To connect WrenAI to your own Data Source Type (PostgreSQL, MySQL, Microsoft SQL
 - Test the connection in the UI before running prompts.
 
 ---
+
 
