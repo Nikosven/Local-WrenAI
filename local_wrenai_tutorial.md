@@ -39,3 +39,7 @@ docker compose -f docker\docker-compose.yaml up
 ## **Next Step**
 
 Access the UI at http://localhost:3000
+
+---
+
+<span style="font-size:17px">Happy testing! Your local WrenAI environment is now ready for some serious development.</span>
