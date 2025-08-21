@@ -13,7 +13,7 @@ This document details the process of running WrenAI locally using Docker, connec
 | Node.js        | For UI (if running manually) |
 | Azure Account  | With OpenAI resource access  |
 | PostgreSQL     | (via Docker, if needed)      |
-| Qdrant         | (via Docker)                 |
+| Qdrant         | (via Docker, auto)                 |
 
 ---
 
@@ -780,5 +780,6 @@ To connect WrenAI to your own Data Source Type (PostgreSQL, MySQL, Microsoft SQL
 - Test the connection in the UI before running prompts.
 
 ---
+
 
 
